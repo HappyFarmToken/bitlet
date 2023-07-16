@@ -41,9 +41,6 @@ public interface Peer {
     int getUnfulfilledRequestNumber();
 
     long getUploaded();
-
-    boolean hasPiece(int index);
-
     void interrupt();
 
     boolean isAmChoked();
